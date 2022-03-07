@@ -21,7 +21,6 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   justify-content: space-between;
   flex-shrink: 0;
   background: rgb(224,231,240);
-  background: linear-gradient(180deg, rgba(224,231,240,1) 2%, rgba(247,251,231,1) 79%);
   width: ${({ isPushed }) => (isPushed ? `${SIDEBAR_WIDTH_FULL}px` : 0)};
   height: 100vh;
   transition: padding-top 0.2s, width 0.2s;
