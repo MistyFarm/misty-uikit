@@ -22,6 +22,13 @@ const Container = styled.div`
   height: 100%;
 `;
 
+const Text = styled.div`
+  text-align: center;
+  font-size: 2rem; 
+  items-align: center;
+  color: #253449;
+`;
+
 const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
   const location = useLocation();
 
@@ -37,6 +44,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
 
         if (entry.items) {
           return (
+            
             <Accordion
               key={entry.label}
               isPushed={isPushed}
