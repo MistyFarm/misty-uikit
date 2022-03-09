@@ -2215,67 +2215,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/goosedefi",
-            },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            {
-                label: "中文",
-                href: "https://t.me/goosefinancechinese",
-            },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            {
-                label: "Italiano",
-                href: "https://t.me/goosefinanceitalian",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/goosefinancerussian",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/GooseFinanceTurkey",
-            },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            {
-                label: "Español",
-                href: "https://t.me/goosefinancespanish",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/goosefinancejapanese",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/goosefinancefrench",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/goosefinanceann",
-            },
-            {
-                label: "Price Bot",
-                href: "https://t.me/BinanceRocketEGG",
+                href: "https://t.me/misty_farm",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/goosedefi",
-    },
-    {
-        label: "Reddit",
-        icon: "RedditIcon",
-        href: "https://www.reddit.com/r/GooseFinanceofficial",
+        href: "https://twitter.com/misty_farm",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2606,7 +2553,7 @@ var AccountModal = function (_a) {
     return (React.createElement(Modal, { title: "Your wallet", onDismiss: onDismiss },
         React.createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
         React.createElement(Flex, { mb: "32px" },
-            React.createElement(LinkExternal, { small: true, href: "https://bscscan.com/address/" + account, mr: "16px" }, "View on BscScan"),
+            React.createElement(LinkExternal, { small: true, href: "https://andromeda-explorer.metis.io/address/" + account, mr: "16px" }, "View on Metis Explorer"),
             React.createElement(CopyToClipboard, { toCopy: account }, "Copy Address")),
         React.createElement(Flex, { justifyContent: "center" },
             React.createElement(Button, { size: "sm", variant: "secondary", onClick: function () {
